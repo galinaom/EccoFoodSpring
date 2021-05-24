@@ -1,6 +1,14 @@
 * {
 	margin: 0;
 	padding: 0;
+
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
 }
 
 body {
@@ -14,4 +22,39 @@ body {
 	margin: 50px 10%;
 	max-width: 1024px;
 	padding: 10px 40px;
+}
+
+.button {
+	background-color: #91ac27;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+	background-color: #629c16; 
+	transition: all 0.5s;
+}
+
+.link{
+	color: black;
+	transition: all 0.5s;
+}
+
+.link:hover{
+	color: #91ac27;
+	transition: all 0.5s;
+}
+
+nav > a{
+	border-bottom: 2px solid transparent;
+	padding: 15px 5px;
+	transition: all 0.5s;
+}
+
+nav > a:hover {
+	border-bottom: 2px solid #91ac27;    
+    transition: all 0.5s;
 }
